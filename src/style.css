@@ -7,3 +7,30 @@
 html {
   font-family: 'Open Sans', sans-serif;
 }
+
+/* body {
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans Mono', monospace;
+	background: #013565 url('./images/house.jpg') center/cover no-repeat ;
+} */
+
+.container {
+	display: flex;
+  display: grid;
+	place-content: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans Mono', monospace;
+	background: #013565 url('./images/house.jpg') center/cover no-repeat ;
+}
+
+.header {
+	flex-shrink: 0;
+	width: 120px;
+	position: relative;
+}
