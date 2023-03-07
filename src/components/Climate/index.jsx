@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import temp from './images/temp.svg'
+import temp from './images/temp.svg';
 import './climate.css';
 
 const Climate = ({temperature, humidity}) => {
